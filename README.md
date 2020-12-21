@@ -21,6 +21,7 @@ Enjoy!
 ## Brainstorming
 Player Count
   [] - purchase ID is transaction ID, not player ID. Find total unique screen names ('SN')
+     -can accomplish multiple ways: len("SN".unique()), df("SN").nunique()
   
 Purchasing Analysis (Total)
 
@@ -37,8 +38,8 @@ Purchasing Analysis (Total)
 Gender Demographics
 
     Percentage and Count of Female, Male and Other/Non-Disclosed Players
-      [] - unique IDs first (purchase ID can have duplicate SNs!), then groupby gender?
-      [] - count gender occurances
+      [] - unique IDs first (purchase ID can have duplicate SNs!)
+      [] - count gender occurances using: value_counts
       [] - set each count to divide by total from counts combined (SHOULD equal total unique IDs)
       
 
