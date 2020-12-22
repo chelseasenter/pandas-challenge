@@ -75,7 +75,9 @@ Age Demographics
             iterations = round_up/5
             num_bins.append(list_appender+5) for x in range(iterations)
     Average Purchase Price
+     
     Total Purchase Value
+    
     Average Purchase Total per Person by Age Group
 
 
