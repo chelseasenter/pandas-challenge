@@ -19,11 +19,11 @@ As a "Lead Analyst" for an independent gaming company, I am tasked with analyzin
 Enjoy!
 
 ## Brainstorming
-Player Count
-  [x] - purchase ID is transaction ID, not player ID. Find total unique screen names ('SN')
-     -can accomplish multiple ways: len("SN".unique()), df("SN").nunique()
+Player Count<p><p>
+  [x] - purchase ID is transaction ID, not player ID. Find total unique screen names ('SN')<p><p>
+     -can accomplish multiple ways: len("SN".unique()), df("SN").nunique()<p><p>
   
-Purchasing Analysis (Total)
+Purchasing Analysis (Total)<p><p>
 
     Number of Unique Items
       [x] - .unique() with length or .count() of "Price"
@@ -35,7 +35,7 @@ Purchasing Analysis (Total)
       [x] - sum of "Price" column
 
 
-Gender Demographics
+Gender Demographics<p><p>
 
     Percentage and Count of Female, Male and Other/Non-Disclosed Players
       [x] - unique IDs first (purchase ID can have duplicate SNs!)
@@ -43,9 +43,9 @@ Gender Demographics
       [x] - set each count to divide by total from counts combined (SHOULD equal total unique IDs)
       
 
-Purchasing Analysis (Gender)
+Purchasing Analysis (Gender)<p><p>
 
-  The below each broken by gender (per Gender group)
+  The below each broken by gender (per Gender group)<p>
 
       [x] - groupby "Gender", then run the following functions with the [columns] designated
     Purchase Count
@@ -63,9 +63,9 @@ Purchasing Analysis (Gender)
      [x] Optional: give the displayed data cleaner formatting
      [x] Display the summary data frame
 
-Age Demographics
+Age Demographics<p><p>
 
-  The below each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.)
+  The below each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.)<p>
      
      Binning:
        - this section requires binning, so I decided to create a dynamic bins script. If another csv file 
@@ -98,8 +98,8 @@ Age Demographics
 
 Top Spenders
 
-  Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
-    SN, Purchase Count, Average Purchase Price, Total Purchase Value
+  Identify the the top 5 spenders in the game by total purchase value, then list (in a table):<p>
+    SN, Purchase Count, Average Purchase Price, Total Purchase Value<p>
 
     [x] - player_gb = groupby SN
     [x] - player_pc = count Purchase ID of player_gb
@@ -112,29 +112,29 @@ Top Spenders
 
 Most Popular Items
 
-  Identify the 5 most popular items by purchase count, then list (in a table):
-   Item ID, Item Name, Purchase Count, Item Price, Total Purchase Value
+  Identify the 5 most popular items by purchase count, then list (in a table):<p>
+   Item ID, Item Name, Purchase Count, Item Price, Total Purchase Value<p>
 
     [x] - create dataframe using purchase_data_df columns: Item ID, Item Name, Item Price
     [x] - item_gb/pc/app/tpv = same process as previous sections
     [x] - create analysis dataframe, sort and format
 
-Most Profitable Items
+Most Profitable Items<p><p>
 
-  Identify the 5 most profitable items by total purchase value, then list (in a table):
-    Item ID, Item Name, Purchase Count, Item Price, Total Purchase Value
+  Identify the 5 most profitable items by total purchase value, then list (in a table):<p>
+    Item ID, Item Name, Purchase Count, Item Price, Total Purchase Value<p>
 
     [x] - using previous item_analysis_df, sort the values by TPV
     [x] - format
 
 
-Reflections:
+Reflections:<p><p>
 
-This homework was more difficult than the last, particularly due to the UI of Jupyter Notebook. I found it difficult to see the code as a whole while writing my script and often struggled visually comprehending how each section connected. To me, it felt more like each box was its own python file, and for whatever reason that perception was hard to shake. 
+This homework was more difficult than the last, particularly due to the UI of Jupyter Notebook. I found it difficult to see the code as a whole while writing my script and often struggled visually comprehending how each section connected. To me, it felt more like each box was its own python file, and for whatever reason that perception was hard to shake. <p><p>
 
-After looking at the data, I am interested add further analysis on the top spenders. Specifically, I would like to look at the top 50 spenders and their gender designations, how if they bought the most popular or most expensive items, if there were any outliers, etc.
+After looking at the data, I am interested add further analysis on the top spenders. Specifically, I would like to look at the top 50 spenders and their gender designations, how if they bought the most popular or most expensive items, if there were any outliers, etc.<p><p>
 
-Resource Links:
-[Kite Answers in general, but here's an example of an answer I used for finding max()](https://www.kite.com/python/answers/how-to-find-the-max-value-of-a-pandas-dataframe-column-in-python#:~:text=max()%20to%20find%20the,from%20the%20previous%20result%20column%20.)
-[Pandas' Documentation was EXTREMELY helpful (albeit confusing to navigate and understand at first](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html)
-[And of course, Youtube was vital when my mind had had it with reading](https://www.youtube.com/watch?v=W5wo3KIUuw4)
+Resource Links:<p>
+[Kite Answers in general, but here's an example of an answer I used for finding max()](https://www.kite.com/python/answers/how-to-find-the-max-value-of-a-pandas-dataframe-column-in-python#:~:text=max()%20to%20find%20the,from%20the%20previous%20result%20column%20.)<p>
+[Pandas' Documentation was EXTREMELY helpful (albeit confusing to navigate and understand at first](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html)<p>
+[And of course, Youtube was vital when my mind had had it with reading](https://www.youtube.com/watch?v=W5wo3KIUuw4)<p>
