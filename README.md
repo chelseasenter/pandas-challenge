@@ -2,21 +2,21 @@
 pandas homework
 #Heroes of PyMoli
 ##Table of Contents
- > Overview
- > Brainstorming/Pseudocode steps
- > Reflection and resource links
+ > Overview<p>
+ > Brainstorming/Pseudocode steps<p>
+ > Reflection and resource links<p>
 
 ## Overview
 As a "Lead Analyst" for an independent gaming company, I am tasked with analyzing the data for their most recent fantasy game Heroes of Pymoli. I will be applying what we've learned thus far from Python, Pandas library, and the Jupyter Notebook web application. Working mostly with data digestion, I am looking to derive the following: 
- > Player Count
- > Purchasing analysis of all data points
- > Gender demographics: analysis
- > Age Demographics
- > Top Spenders
- > Most Popular Items
- > Most Profitable Items
+ > Player Count<p>
+ > Purchasing analysis of all data points<p>
+ > Gender demographics: analysis<p>
+ > Age Demographics<p>
+ > Top Spenders<p>
+ > Most Popular Items<p>
+ > Most Profitable Items<p><p>
 
-Enjoy!
+Enjoy!<p><p>
 
 ## Brainstorming
 Player Count<p><p>
