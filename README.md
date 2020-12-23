@@ -136,5 +136,5 @@ After looking at the data, I am interested add further analysis on the top spend
 
 Resource Links:<p>
 [Kite Answers in general, but here's an example of an answer I used for finding max()](https://www.kite.com/python/answers/how-to-find-the-max-value-of-a-pandas-dataframe-column-in-python#:~:text=max()%20to%20find%20the,from%20the%20previous%20result%20column%20.)<p>
-[Pandas' Documentation was EXTREMELY helpful (albeit confusing to navigate and understand at first](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html)<p>
+[Pandas' Documentation was EXTREMELY helpful (albeit confusing to navigate and understand at first)](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html)<p>
 [And of course, Youtube was vital when my mind had had it with reading](https://www.youtube.com/watch?v=W5wo3KIUuw4)<p>
